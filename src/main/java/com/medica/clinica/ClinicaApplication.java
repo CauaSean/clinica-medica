@@ -1,13 +1,13 @@
-package com.caua.clinica_medica;
+package com.medica.clinica;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ClinicaMedicaApplication {
+public class ClinicaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClinicaMedicaApplication.class, args);
+		SpringApplication.run(ClinicaApplication.class, args);
 	}
 
 }
