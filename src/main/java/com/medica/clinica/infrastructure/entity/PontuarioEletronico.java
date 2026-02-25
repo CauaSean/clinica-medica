@@ -5,19 +5,23 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDate;
+import java.util.Date;
+import java.util.List;
 import java.util.UUID;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Consulta {
+public class PontuarioEletronico {
 
     UUID id;
-    LocalDate dataHora;
-    String statusConsulta;
-    Double valor;
-    Medico medico;
     Paciente paciente;
+    Date dataAbertura;
+    List<String> alergias;
+    List<RegistroMedico> registros;
+
+    public void adicionarRegistro(RegistroMedico registro) {
+        registros.add(registro);
+    }
 }

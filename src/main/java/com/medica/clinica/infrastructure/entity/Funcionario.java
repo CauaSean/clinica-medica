@@ -9,8 +9,10 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public abstract class Funcionario {
-    double calcularSalario(double salario){
-        return salario;
-    }
+public abstract class Funcionario extends Pessoa {
+
+    String matricula;
+    Double salarioBase;
+
+    public abstract double calcularSalario();
 }
