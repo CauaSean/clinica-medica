@@ -9,9 +9,8 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Medico extends Funcionario{
-    String crm;
-    String especialidade;
-
-
+public class Medico{
+    private String crm;
+    private String especialidade;
 }
+

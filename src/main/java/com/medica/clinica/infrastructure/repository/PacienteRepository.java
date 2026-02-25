@@ -1,4 +1,5 @@
 package com.medica.clinica.infrastructure.repository;
 
-public interface RecepcionistaRepository {
+public class PacienteRepository {
+
 }

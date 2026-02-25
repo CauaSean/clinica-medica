@@ -1,5 +1,6 @@
 package com.medica.clinica;
 
+import com.medica.clinica.infrastructure.repository.MedicoRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

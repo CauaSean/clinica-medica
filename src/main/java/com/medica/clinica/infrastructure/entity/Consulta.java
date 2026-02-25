@@ -18,6 +18,4 @@ public class Consulta {
     Double valor;
     Medico medico;
     Paciente paciente;
-
-
 }

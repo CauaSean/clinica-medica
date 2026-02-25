@@ -10,7 +10,10 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public abstract class Funcionario {
-    double calcularSalario(double salario){
-        return salario;
-    }
+    String matricula;
+    double salarioBase;
+
+    public abstract double calcularSalario(double salario);
+
+    public abstract double calcularSalario();
 }

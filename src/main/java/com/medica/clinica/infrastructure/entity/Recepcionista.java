@@ -1,10 +1,7 @@
 package com.medica.clinica.infrastructure.entity;
 
-public class Recepcionista extends Funcionario{
-    String turnoTrabalho;
+public class Recepcionista {
+    private String turnoTrabalho;
 
-    @Override
-    double calcularSalario(double salarioRecepcionista) {
-        return super.calcularSalario(salarioRecepcionista);
-    }
+
 }
