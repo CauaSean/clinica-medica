@@ -13,7 +13,7 @@ import java.util.UUID;
 @NoArgsConstructor
 public class Recepcionista extends Funcionario {
 
-    UUID id;
+    UUID id = UUID.randomUUID();
     TurnoTrabalho turnoTrabalho;
 
     @Override

@@ -14,7 +14,7 @@ import java.util.UUID;
 @NoArgsConstructor
 public class Consulta {
 
-    UUID id;
+    UUID id = UUID.randomUUID();
     LocalDate dataHora;
     String statusConsulta;
     Double valor;

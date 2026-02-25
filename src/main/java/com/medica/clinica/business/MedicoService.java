@@ -58,7 +58,6 @@ public class MedicoService {
      */
     public Consulta agendarConsulta(Paciente paciente, Medico medico, double valor) {
         Consulta consulta = new Consulta();
-        consulta.setId(UUID.randomUUID());
         consulta.setDataHora(LocalDate.now());
         consulta.setStatusConsulta("Agendada");
         consulta.setValor(valor);

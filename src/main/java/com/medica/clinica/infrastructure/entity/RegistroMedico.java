@@ -13,7 +13,7 @@ import java.util.UUID;
 @NoArgsConstructor
 public class RegistroMedico {
 
-    UUID id;
+    UUID id = UUID.randomUUID();
     PontuarioEletronico pontuarioEletronico;
     String sintomas;
     String diagnostico;

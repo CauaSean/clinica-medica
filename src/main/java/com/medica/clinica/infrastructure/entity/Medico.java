@@ -13,7 +13,7 @@ import java.util.UUID;
 @NoArgsConstructor
 public class Medico extends Funcionario {
 
-    UUID id;
+    UUID id = UUID.randomUUID();
     String crm;
     Especialidade especialidade;
 

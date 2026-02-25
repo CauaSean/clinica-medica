@@ -13,7 +13,7 @@ import java.util.UUID;
 @NoArgsConstructor
 public class Paciente extends Pessoa {
 
-    UUID id;
+    UUID id = UUID.randomUUID();
     String numeroCarteirinha;
     String tipoSanguineo;
 }
