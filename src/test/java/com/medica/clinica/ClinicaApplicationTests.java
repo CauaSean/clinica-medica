@@ -1,10 +1,10 @@
-package com.caua.clinica_medica;
+package com.medica.clinica;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ClinicaMedicaApplicationTests {
+class ClinicaApplicationTests {
 
 	@Test
 	void contextLoads() {
