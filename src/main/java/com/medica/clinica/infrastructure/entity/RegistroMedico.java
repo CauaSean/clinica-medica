@@ -5,19 +5,17 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDate;
 import java.util.UUID;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Consulta {
+public class RegistroMedico {
 
     UUID id = UUID.randomUUID();
-    LocalDate dataHora;
-    String statusConsulta;
-    Double valor;
-    Medico medico;
-    Paciente paciente;
+    PontuarioEletronico pontuarioEletronico;
+    String sintomas;
+    String diagnostico;
+    String prescricao;
 }
