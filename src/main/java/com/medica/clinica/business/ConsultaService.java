@@ -9,10 +9,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-/**
- * Serviço para operações de domínio de Consulta.
- * TODO: Conectar uma implementação real de ConsultaRepository ao adicionar persistência.
- */
+
 public class ConsultaService {
 
     private final ConsultaRepository consultaRepository;
@@ -21,7 +18,6 @@ public class ConsultaService {
         this.consultaRepository = consultaRepository;
     }
 
-    // ── CRUD ─────────────────────────────────────────────────────────────────
 
     public Consulta criarConsulta(Consulta consulta) {
         return consultaRepository.create(consulta);

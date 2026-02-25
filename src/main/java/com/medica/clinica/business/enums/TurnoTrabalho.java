@@ -1,4 +1,4 @@
-package com.medica.clinica.infrastructure.entity;
+package com.medica.clinica.business.enums;
 
 public enum TurnoTrabalho {
     MANHA,

@@ -1,5 +1,6 @@
 package com.medica.clinica.infrastructure.entity;
 
+import com.medica.clinica.business.enums.TurnoTrabalho;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
