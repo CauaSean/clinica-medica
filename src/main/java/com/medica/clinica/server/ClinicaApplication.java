@@ -1,8 +1,8 @@
 package com.medica.clinica.server;
 
 /**
- * Reservado para integraÃ§Ã£o futura com Spring Boot.
- * O entrypoint atual da aplicaÃ§Ã£o Ã©: com.medica.clinica.ui.app.Main
+ * Reservado para integração futura com Spring Boot.
+ * O entrypoint atual da aplicação é: com.medica.clinica.ui.app.Main
  */
 public class ClinicaApplication {
 }

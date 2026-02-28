@@ -5,7 +5,7 @@ import com.medica.clinica.ui.view.TelaPrincipal;
 import javax.swing.*;
 
 /**
- * Entrypoint da aplicação HealthSys.
+ * Entrypoint da aplica??o HealthSys.
  * Inicializa o Look & Feel e abre a janela principal.
  */
 public class Main {

@@ -40,6 +40,7 @@ public class TelaPrincipal extends JFrame {
         JButton btnAgendamento     = criarBotaoMenu("  Agendar Consulta");
         JButton btnProntuario      = criarBotaoMenu("  Prontuário Médico");
         JButton btnFolha           = criarBotaoMenu("  Folha de Pagamento");
+        JButton btnListagem        = criarBotaoMenu("  Ver Registros"); // <-- NOVO BOTÃO ADICIONADO AQUI
         JButton btnSair            = criarBotaoMenu("  Sair do Sistema");
 
         btnSair.setBackground(COR_DESTAQUE_TEAL);
@@ -55,6 +56,9 @@ public class TelaPrincipal extends JFrame {
         painelLateral.add(btnProntuario);
         painelLateral.add(Box.createRigidArea(new Dimension(0, 10)));
         painelLateral.add(btnFolha);
+        painelLateral.add(Box.createRigidArea(new Dimension(0, 10)));
+        painelLateral.add(btnListagem); // <-- NOVO BOTÃO INSERIDO NO PAINEL AQUI
+        painelLateral.add(Box.createRigidArea(new Dimension(0, 10)));
         painelLateral.add(Box.createVerticalGlue());
         painelLateral.add(btnSair);
 
@@ -97,6 +101,9 @@ public class TelaPrincipal extends JFrame {
         btnAgendamento.addActionListener(e -> new AgendamentoController(this).setVisible(true));
         btnProntuario.addActionListener(e -> new ProntuarioController(this).setVisible(true));
         btnFolha.addActionListener(e -> new FolhaPagamentoController(this).setVisible(true));
+        
+        // <-- AÇÃO DO NOVO BOTÃO AQUI:
+        btnListagem.addActionListener(e -> new TelaListagem("Médicos e Pacientes").setVisible(true)); 
     }
 
     private JButton criarBotaoMenu(String texto) {
