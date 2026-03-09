@@ -13,7 +13,6 @@ import java.util.UUID;
 @NoArgsConstructor
 public class RegistroMedicoDTO {
 
-    UUID id = UUID.randomUUID();
     PontuarioEletronicoDTO pontuarioEletronicoDTO;
     String sintomas;
     String diagnostico;

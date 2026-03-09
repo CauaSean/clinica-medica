@@ -15,7 +15,6 @@ import java.util.UUID;
 @NoArgsConstructor
 public class PontuarioEletronicoDTO {
 
-    UUID id = UUID.randomUUID();
     PacienteDTO pacienteDTO;
     Date dataAbertura;
     List<String> alergias;

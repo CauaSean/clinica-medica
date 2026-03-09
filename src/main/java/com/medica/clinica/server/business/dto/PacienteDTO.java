@@ -13,7 +13,6 @@ import java.util.UUID;
 @NoArgsConstructor
 public class PacienteDTO extends PessoaDTO {
 
-    UUID id = UUID.randomUUID();
     String numeroCarteirinha;
     String tipoSanguineo;
 }

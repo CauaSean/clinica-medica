@@ -14,7 +14,6 @@ import java.util.UUID;
 @NoArgsConstructor
 public class MedicoDTO extends FuncionarioDTO {
 
-    UUID id = UUID.randomUUID();
     String crm;
     Especialidade especialidade;
 
